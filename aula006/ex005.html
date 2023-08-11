@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
+    <style>
+        body {
+            background-color: rgb(68, 125, 199);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Iniciando os estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>Dom</strong> em javascript.</p>
+    <div id="clique">Clique em mim</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[0]
+        var p2 = document.getElementsByTagName('p')[1]
+        //var div = document.getElementById('clique')
+        document.writeln('Está escrito assim:' + p1.innerText)
+        document.write('E também está escrito assim:' + p2.innerText)
+        document.write('E também está escrito assim:' + p2.innerHTML)
+       // div.style.color = 'red'
+       // div.innerText = 'Estou aguardando ...'
+        var div = document.querySelector('div#clique')
+        div.style.color = 'blue'
+
+    </script>
 </body>
 </html>
