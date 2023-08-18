@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(126, 165, 223);
+}
+header {
+    color: aliceblue;
+    text-align: center;
+}
+section {
+    background-color: rgb(200, 217, 233);
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.384);
+    margin: auto;
+}
+div {
+    text-align: center;
+    padding: 15px;
+}
+select#lista {
+    width: 250px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 113, 126);
+}
+footer {
+    color: aliceblue;
+    text-align: center;
+}
